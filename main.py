@@ -48,7 +48,7 @@ def zoomdoom():
         payload()
         testedlink = [i]
         print(testedlink)
-        if checkIfProcessRunning('zoom.us'):
+        if checkIfProcessRunning('zoom.us') == True:
             call = payload()
             print('link is valid:' + call)
             break
